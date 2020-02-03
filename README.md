@@ -13,7 +13,7 @@ version: "3.1"
 
 services:
   mtproto:
-    build: .
+    image: petrovalexander/mtproto-docker-secrets
     environment:
       X_SECRET_FILE: /run/secrets/proxy_secrets
     secrets:
